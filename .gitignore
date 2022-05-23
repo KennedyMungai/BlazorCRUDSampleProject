@@ -5,3 +5,5 @@
 /SimpleToDoModels/obj
 /SimpleToDoProject/bin
 /SimpleToDoProject/obj
+.vs/slnx.sqlite
+.vs/BlazorCRUDSampleProject/v17/.suo
