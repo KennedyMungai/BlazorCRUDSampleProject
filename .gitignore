@@ -1,1 +1,7 @@
 /.vscode
+*.dll
+*.exe
+/SimpleToDoModels/bin
+/SimpleToDoModels/obj
+/SimpleToDoProject/bin
+/SimpleToDoProject/obj
