@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../SimpleToDoModels/SimpleToDoModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+  </ItemGroup>
+
 </Project>
