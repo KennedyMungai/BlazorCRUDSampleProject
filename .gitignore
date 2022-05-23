@@ -1,4 +1,5 @@
 /.vscode
+/.vs
 *.dll
 *.exe
 /SimpleToDoModels/bin
