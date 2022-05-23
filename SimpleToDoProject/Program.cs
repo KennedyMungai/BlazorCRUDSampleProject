@@ -1,6 +1,9 @@
+using System;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using SimpleToDoProject.Data;
+using Microsoft.EntityFrameworkCore;
+using SimpleToDoModels.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddTransient<ISimpleToDoService, SimpleToDoService>();
+builder.Services.AddDbContext<SimpleToDoDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SimpleToDoConnString")));
 
 var app = builder.Build();
 
