@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": -503792268,
-        "Kind": "Components.Component",
-        "Name": "SimpleToDoProject.Pages.FetchData",
-        "AssemblyName": "SimpleToDoProject",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SimpleToDoProject.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1133438499,
-        "Kind": "Components.Component",
-        "Name": "SimpleToDoProject.Pages.FetchData",
-        "AssemblyName": "SimpleToDoProject",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SimpleToDoProject.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SimpleToDoProject.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1371822838,
         "Kind": "Components.Component",
         "Name": "SimpleToDoProject.Pages.Index",
@@ -107,6 +74,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "SimpleToDoProject.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -503792268,
+        "Kind": "Components.Component",
+        "Name": "SimpleToDoProject.Pages.FetchData",
+        "AssemblyName": "SimpleToDoProject",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SimpleToDoProject.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1133438499,
+        "Kind": "Components.Component",
+        "Name": "SimpleToDoProject.Pages.FetchData",
+        "AssemblyName": "SimpleToDoProject",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SimpleToDoProject.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SimpleToDoProject.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -144,55 +144,35 @@
         }
       },
       {
-        "HashCode": 1290685259,
+        "HashCode": 1774930992,
         "Kind": "Components.Component",
-        "Name": "SimpleToDoProject.Shared.SurveyPrompt",
+        "Name": "SimpleToDoProject.Shared.NavMenu",
         "AssemblyName": "SimpleToDoProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SimpleToDoProject.Shared.SurveyPrompt"
+          "Common.TypeName": "SimpleToDoProject.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -263880194,
+        "HashCode": 127858680,
         "Kind": "Components.Component",
-        "Name": "SimpleToDoProject.Shared.SurveyPrompt",
+        "Name": "SimpleToDoProject.Shared.NavMenu",
         "AssemblyName": "SimpleToDoProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SimpleToDoProject.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "SimpleToDoProject.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SimpleToDoProject.Shared.SurveyPrompt",
+          "Common.TypeName": "SimpleToDoProject.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -293,35 +273,55 @@
         }
       },
       {
-        "HashCode": 1774930992,
+        "HashCode": 1290685259,
         "Kind": "Components.Component",
-        "Name": "SimpleToDoProject.Shared.NavMenu",
+        "Name": "SimpleToDoProject.Shared.SurveyPrompt",
         "AssemblyName": "SimpleToDoProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SimpleToDoProject.Shared.NavMenu"
+          "Common.TypeName": "SimpleToDoProject.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": 127858680,
+        "HashCode": -263880194,
         "Kind": "Components.Component",
-        "Name": "SimpleToDoProject.Shared.NavMenu",
+        "Name": "SimpleToDoProject.Shared.SurveyPrompt",
         "AssemblyName": "SimpleToDoProject",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SimpleToDoProject.Shared.NavMenu"
+            "TagName": "SimpleToDoProject.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SimpleToDoProject.Shared.NavMenu",
+          "Common.TypeName": "SimpleToDoProject.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
